@@ -1,11 +1,16 @@
 $(document).ready(function() {
-    $('.item-menu').hover(
-        function() {
-            $(this).addClass('active');
-        },
+    // $('.item-menu').hover(
+    //     function() {
+    //         var value = $(this).data("value")
+    //         $(this).addClass('active');
+    //     },
         
-        function() {
-            $(this).removeClass('active');
-        }
-    );
+    //     function() {
+    //         var value = $(this).data("value")
+    //         $('.main-menu .sub-menu').removeClass('active');
+    //         $(value).removeClass('active');
+    //         $(this).removeClass('active');
+    //     }
+    // );
+
 });
